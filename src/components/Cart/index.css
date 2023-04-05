@@ -1,0 +1,82 @@
+.cart-container {
+  display: flex;
+  justify-content: center;
+  min-height: 75vh;
+}
+
+@media screen and (min-width: 768px) {
+  .cart-container {
+    min-height: 90vh;
+  }
+}
+
+.cart-content-container {
+  display: flex;
+  flex-direction: column;
+  width: 90%;
+  max-width: 1110px;
+}
+
+@media screen and (min-width: 768px) {
+  .cart-content-container {
+    width: 80%;
+    max-width: 1110px;
+  }
+}
+
+.cart-heading {
+  color: #3e4c59;
+  font-family: 'Roboto';
+  font-size: 24px;
+  font-weight: 700;
+}
+
+@media screen and (min-width: 768px) {
+  .cart-heading {
+    font-size: 48px;
+  }
+}
+
+/* Write your CSS here */
+.removeAllBtnContainer {
+  display: flex;
+  align-items: center;
+  justify-content: flex-end;
+}
+.removeAllBtn {
+  border: none;
+  background-color: transparent;
+  color: #0b69ff;
+  font-size: 0.8rem;
+  font-weight: bold;
+}
+.cartSummaryContainer {
+  display: flex;
+  align-items: center;
+  justify-content: flex-end;
+}
+.cartSummaryCard {
+  display: flex;
+  flex-direction: column;
+}
+.orderTotal {
+  font-size: 1.2rem;
+  color: #3e4c59;
+  box-sizing: border-box;
+}
+.amount {
+  color: black;
+  font-size: 1.4rem;
+}
+.itemCount {
+  font-size: 1rem;
+  color: #3e4c59;
+}
+.checkOutBtn {
+  border: none;
+  background-color: #0b69ff;
+  color: white;
+  border-radius: 0.2rem;
+  padding: 0.4rem;
+  font-size: 1rem;
+}
